@@ -1,0 +1,62 @@
+baseURL = "https://rootkitty.tech"
+languageCode = "en-us"
+title = "Rootkitty's Blog"
+theme = "nuo"
+
+enableRobotsTXT = true
+
+pygmentsuseclasses = true
+PygmentsCodeFences = true
+pygmentStyle = "monokai"
+
+canonifyurls = true
+
+#Copyright notice on posts
+copyright = "© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you likes to quote or reproduce."
+
+#Disable hugo generator meta tag
+disableHugoGeneratorInject =  true
+
+
+# Initial site menu, you can extend menu with content.
+[[menu.main]]
+  name = "Home"
+  weight = 10
+  identifier = "home"
+  url = "/"
+
+[[menu.main]]
+  name = "Git Repository"
+  weight = 20
+  identifier = "works"
+  url = "https://gitgud.io/rootkit.ty/"
+
+# Add your own params here
+[params]
+  author = "Ring <3 RootKitty"
+  avatar = "/img/avatar.jpg"
+  seotitle = "Rootkitty's Tech Blog"
+  subtitle = "I break more things then I fix"
+  description = "A website for keeping record of my escapades into stupidity."
+  paginate = 10
+
+# Choose your social networks
+  email = "contact@rootkitty.tech"
+  github = "rootkitty"
+  twitter = "rootkit_ty"
+# linkedin = "linkedin_username"
+# facebook = "facebook_username"
+# google = "googlplus_id_number"
+# youtube = "youtube_username"
+# vimeo = "vimeo_username"
+# medium = "medium_username"
+# instagram = "instagram_username"
+# jsfiddle = "jsfiddle_username"
+
+# Google Webmaster
+# https://www.google.com/webmasters/
+  googleSiteVerification = "_moDmnnBNVLBN1rzNxyGUGdPHE20YgbmrtzLIbxaWFc"
+
+# Bing Webmaster
+# https://www.bing.com/toolbox/webmaster/
+msValidate = "22596E34341DD1D17D6022C44647E587"

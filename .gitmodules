@@ -1,0 +1,9 @@
+[submodule "themes/nuo"]
+	path = themes/nuo
+	url = https://github.com/laozhu/hugo-nuo.git
+[submodule "themes/dark"]
+	path = themes/dark
+	url = https://github.com/comfusion/after-dark.git
+[submodule "themes/ananke"]
+	path = themes/ananke
+	url = https://github.com/budparr/gohugo-theme-ananke.git

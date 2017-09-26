@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rootkitty&#39;s Blog</title>
+    <link>https://rootkitty.tech/</link>
+    <description>Recent content on Rootkitty&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you likes to quote or reproduce.</copyright>
+    <lastBuildDate>Mon, 25 Sep 2017 05:17:22 -0400</lastBuildDate>
+    
+	<atom:link href="https://rootkitty.tech/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Welcome</title>
+      <link>https://rootkitty.tech/post/welcome/</link>
+      <pubDate>Mon, 25 Sep 2017 05:17:22 -0400</pubDate>
+      
+      <guid>https://rootkitty.tech/post/welcome/</guid>
+      <description>Hello and welcome to my blog. This domain has beeen parked for some time while I attempted to find a nice blogging software, but I think found it.
+Content Anyway, welcome to the blog I hope you enjoy it&amp;rsquo;s content. What content? Well none at this current time but it&amp;rsquo;ll essentially be a journal of all my escapades. Malware analysis, projects, and even just notes.
+About me Enough about the blog, and more about me.</description>
+    </item>
+    
+  </channel>
+</rss>
