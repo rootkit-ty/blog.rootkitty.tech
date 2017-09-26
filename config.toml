@@ -34,7 +34,7 @@ disableHugoGeneratorInject =  true
 # Add your own params here
 [params]
   author = "Ring <3 RootKitty"
-  avatar = "/img/avatar.jpg"
+  avatar = "/img/scream.png"
   seotitle = "Rootkitty's Tech Blog"
   subtitle = "I break more things then I fix"
   description = "A website for keeping record of my escapades into stupidity."
