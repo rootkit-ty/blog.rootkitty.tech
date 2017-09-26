@@ -19,7 +19,7 @@
 
 ## What is hugo?
 Hugo is a wonderful program written in Golang (LINK) to create static HTML from templates and markdown files. It's fast, natively compiled, and does the job well.
-
+<!--more-->
 It's filled to the brim with features that I'm sure I won't find any use for. It also has a plethora of themes that you can easily switch between.
 
 ## How does it work?
