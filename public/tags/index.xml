@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you likes to quote or reproduce.</copyright>
-    <lastBuildDate>Mon, 25 Sep 2017 05:17:22 -0400</lastBuildDate>
+    <lastBuildDate>Thu, 28 Sep 2017 09:28:27 +1000</lastBuildDate>
     
 	<atom:link href="https://rootkitty.tech/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Forensics</title>
+      <link>https://rootkitty.tech/tags/forensics/</link>
+      <pubDate>Thu, 28 Sep 2017 09:28:27 +1000</pubDate>
+      
+      <guid>https://rootkitty.tech/tags/forensics/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Meta</title>
@@ -18,6 +27,24 @@
       <pubDate>Mon, 25 Sep 2017 05:17:22 -0400</pubDate>
       
       <guid>https://rootkitty.tech/tags/meta/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Privacy</title>
+      <link>https://rootkitty.tech/tags/privacy/</link>
+      <pubDate>Thu, 28 Sep 2017 09:28:27 +1000</pubDate>
+      
+      <guid>https://rootkitty.tech/tags/privacy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Windows</title>
+      <link>https://rootkitty.tech/tags/windows/</link>
+      <pubDate>Thu, 28 Sep 2017 09:28:27 +1000</pubDate>
+      
+      <guid>https://rootkitty.tech/tags/windows/</guid>
       <description></description>
     </item>
     
