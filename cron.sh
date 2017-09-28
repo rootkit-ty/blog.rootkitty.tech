@@ -5,3 +5,6 @@ git pull origin master >> logs/git.log
 date >> logs/hugo.log
 echo "Attempting to build HTML with Hugo" >> logs/hugo.log
 hugo >> logs/hugo.log
+
+echo "Finish" >> logs/hugo.log
+echo "Finish" >> logs/git.log
