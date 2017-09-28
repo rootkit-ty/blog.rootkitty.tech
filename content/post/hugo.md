@@ -14,7 +14,7 @@
 		"server"
 	],
 	"date": "2017-09-26T14:25:34+10:00",
-	"draft": true
+	"draft": false
 }
 
 ## What is hugo?
