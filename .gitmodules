@@ -7,3 +7,6 @@
 [submodule "themes/ananke"]
 	path = themes/ananke
 	url = https://github.com/budparr/gohugo-theme-ananke.git
+[submodule "themes/nuo_cdnless"]
+	path = themes/nuo_cdnless
+	url = https://gitgud.io/rootkit.ty/hugo-nuo-cdnless.git
