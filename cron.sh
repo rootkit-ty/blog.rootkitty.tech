@@ -1,7 +1,7 @@
 date >> logs/git.log
 echo "Attempting to pull repo" >> logs/git.log
 #git fetch --recurse-submodules -q origin master >> logs/git.log
-git pull -q origin master
+git pull --recurse-submodules -q origin master
 
 date >> logs/hugo.log
 echo "Attempting to build HTML with Hugo" >> logs/hugo.log
