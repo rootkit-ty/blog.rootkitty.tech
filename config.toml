@@ -1,7 +1,7 @@
 baseURL = "https://rootkitty.tech"
 languageCode = "en-us"
 title = "Rootkitty's Blog"
-theme = "nuo_cdnless"
+theme = "nuo"
 
 enableRobotsTXT = true
 

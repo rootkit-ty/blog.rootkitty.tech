@@ -31,7 +31,7 @@ Those not paying attention to their metadata may soon find themselves leaking qu
       <guid>https://rootkitty.tech/post/hugo/</guid>
       <description>&lt;h2 id=&#34;what-is-hugo&#34;&gt;What is hugo?&lt;/h2&gt;
 
-&lt;p&gt;Hugo is a wonderful program written in Golang (LINK) to create static HTML from templates and markdown files. It&amp;rsquo;s fast, natively compiled, and does the job well.
+&lt;p&gt;&lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt; is a wonderful program written in &lt;a href=&#34;https://golang.org/&#34;&gt;Golang&lt;/a&gt; to create static HTML from templates and markdown files. It&amp;rsquo;s fast, natively compiled, and does the job well.
 
 It&amp;rsquo;s filled to the brim with features that I&amp;rsquo;m sure I won&amp;rsquo;t find any use for. It also has a plethora of themes that you can easily switch between.&lt;/p&gt;</description>
     </item>
