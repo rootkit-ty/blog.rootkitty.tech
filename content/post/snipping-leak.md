@@ -38,7 +38,7 @@ For those of you who are not aware, a UUID stands for Universally unique identif
 ## What does this mean?
 Well it means that if you end up juggling multiple lives on one Windows computer, and happen to use Snipping tool AND save those images as JPEGs, you are leaving a method of tieing them all back to you.
 
-It's also known that snipping tool is used a surprising amount by "Hackers" or people from HF. Often used to screenshot something, and [obscure sensitive information](https://twitter.com/HavocFred/status/560238421449641985) about it.
+It's also known that snipping tool is used a surprising amount by “Hackers” or people from HF. Often used to screenshot something, and [obscure sensitive information](https://twitter.com/HavocFred/status/560238421449641985) about it.
 
 Theoretically the entire process of this could be automated, and you could probably make a greasemonkey script to do it on HF.
 

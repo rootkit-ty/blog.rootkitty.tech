@@ -48,4 +48,4 @@ Spins are the odd one out, they're very rare but quite fun. They're a set of not
 ### The difference between ITG and DDR
 The main difference between ITG and DDR is that ITG is more of an Enthusiast game. It gives the player more fined graned control and feedback. It adds features that DDR at the time failed to provide. ITG also often allows users to play songs off their USB, meaning custom songs.
 
-BUT another crucial difference is where the songs derive difficulty from. Most DDR songs are higher BPM streams with less intervals. They also have less intense streams and rely more on Cross Overs.
+BUT another crucial difference is where the songs derive difficulty from. Most DDR songs are higher BPM streams with smaler intervals. They also have less intense streams and rely more on Cross Overs.
