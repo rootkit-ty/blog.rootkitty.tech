@@ -29,6 +29,7 @@ Those not paying attention to their metadata may soon find themselves leaking qu
 What even is Snipping Tool? Well Snipping tool is a inbuilt application included from Vista onwards by Microsoft. It allows easy screenshotting of a selected area and editing. It can be fairly useful.
 
 But as with many things from Microsoft, it leaks quite a lot of metadata. Enough to identify a user from. It turns out once saved as a JPEG it will include EXIF data containing information such as:
+
 	* User Profile Full Name
 	* UUID
 
