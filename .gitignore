@@ -2,4 +2,6 @@
 .vim
 .viminfo
 public/
+public/**
+/public/*
 logs/
