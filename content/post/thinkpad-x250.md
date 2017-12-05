@@ -2,9 +2,9 @@
 title: "Thinkpad X250"
 date: 2017-10-16T09:17:17+11:00
 description: "A post about the wonders of buying a used x240/x250 thinkpad laptop"
-keywords: "laptop", "lenovo", "x240", "x250", "review", "battery life"
+keywords: ["laptop", "lenovo", "x240", "x250", "review", "battery life"]
 categories: "hardware"
-tags: "hardware", "review"
+tags: ["hardware", "review"]
 draft: true
 ---
 
