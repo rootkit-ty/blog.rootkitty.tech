@@ -7,10 +7,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you likes to quote or reproduce.</copyright>
-    <lastBuildDate>Thu, 28 Sep 2017 09:28:27 +1000</lastBuildDate>
+    <lastBuildDate>Wed, 02 Aug 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://rootkitty.tech/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>About</title>
+      <link>https://rootkitty.tech/about/</link>
+      <pubDate>Wed, 02 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://rootkitty.tech/about/</guid>
+      <description>I&amp;rsquo;m a furry with a computer, and no idea what he&amp;rsquo;s doing. Always looking to better myself and engage further with my hobbies of security and programming.
+I try my best to do things, and entertain myself and hopefully by extension at least one other person.
+Contact You can contact me through various ways, some of which will be listed bellow - Email: kitty[at]rootkitty[dot]tech - XMPP: rootkitty@xmpp.is - Telegram: @rootkitty - Twitter: @rootkit_ty</description>
+    </item>
     
     <item>
       <title>Snipping Leak</title>
