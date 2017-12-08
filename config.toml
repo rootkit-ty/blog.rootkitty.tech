@@ -29,7 +29,7 @@ disableHugoGeneratorInject =  true
   name = "About"
   weight = 10
   identifier = "about"
-  url = "/about.html"
+  url = "/about/index.html"
 
 [[menu.main]]
   name = "Git Repository"
