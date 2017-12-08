@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Setup on Rootkitty&#39;s Blog</title>
+    <link>https://rootkitty.tech/tags/setup/</link>
+    <description>Recent content in Setup on Rootkitty&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you likes to quote or reproduce.</copyright>
+    <lastBuildDate>Tue, 26 Sep 2017 14:25:34 +1000</lastBuildDate>
+    
+	<atom:link href="https://rootkitty.tech/tags/setup/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Go Hugo</title>
+      <link>https://rootkitty.tech/post/hugo/</link>
+      <pubDate>Tue, 26 Sep 2017 14:25:34 +1000</pubDate>
+      
+      <guid>https://rootkitty.tech/post/hugo/</guid>
+      <description>&lt;h2 id=&#34;what-is-hugo&#34;&gt;What is hugo?&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt; is a wonderful program written in &lt;a href=&#34;https://golang.org/&#34;&gt;Golang&lt;/a&gt; to create static HTML from templates and markdown files. It&amp;rsquo;s fast, natively compiled, and does the job well.
+
+It&amp;rsquo;s filled to the brim with features that I&amp;rsquo;m sure I won&amp;rsquo;t find any use for. It also has a plethora of themes that you can easily switch between.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

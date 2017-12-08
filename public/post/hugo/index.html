@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+  <meta charset="utf-8" />
+
+  
+  <title>Go Hugo</title>
+
+  
+  
+
+
+
+
+  
+  <meta name="author" content="Ring &lt;3 RootKitty" />
+  <meta name="description" content="What is hugo? Hugo is a wonderful program written in Golang to create static HTML from templates and markdown files. It&amp;rsquo;s fast, natively compiled, and does the job well. It&amp;rsquo;s filled to the brim with features that I&amp;rsquo;m sure I won&amp;rsquo;t find any use for. It also has a plethora of themes that you can easily switch between.
+" />
+
+  
+  
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@rootkit_ty" />
+    <meta name="twitter:title" content="Go Hugo" />
+    <meta name="twitter:description" content="What is hugo? Hugo is a wonderful program written in Golang to create static HTML from templates and markdown files. It&amp;rsquo;s fast, natively compiled, and does the job well. It&amp;rsquo;s filled to the brim with features that I&amp;rsquo;m sure I won&amp;rsquo;t find any use for. It also has a plethora of themes that you can easily switch between.
+" />
+    <meta name="twitter:image" content="https://rootkitty.tech/img/avatar.jpg" />
+  
+
+
+
+
+<meta name="generator" content="Hugo 0.31.1" />
+
+
+<link rel="canonical" href="https://rootkitty.tech/post/hugo/" />
+<link rel="alternative" href="https://rootkitty.tech/index.xml" title="Rootkitty&#39;s Blog" type="application/atom+xml" />
+
+
+<meta name="renderer" content="webkit" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<meta name="format-detection" content="telephone=no,email=no,adress=no" />
+<meta http-equiv="Cache-Control" content="no-transform" />
+
+
+<meta name="robots" content="index,follow" />
+<meta name="referrer" content="origin-when-cross-origin" />
+<meta name="google-site-verification" content="_moDmnnBNVLBN1rzNxyGUGdPHE20YgbmrtzLIbxaWFc" />
+<meta name="msvalidate.01" content="22596E34341DD1D17D6022C44647E587" />
+
+
+
+
+
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta name="apple-mobile-web-app-title" content="Rootkitty&#39;s Blog" />
+<meta name="msapplication-tooltip" content="Rootkitty&#39;s Blog" />
+<meta name='msapplication-navbutton-color' content="#5fbf5e" />
+<meta name="msapplication-TileColor" content="#5fbf5e" />
+<meta name="msapplication-TileImage" content="/img/tile-image-windows.png" />
+<link rel="icon" href="https://rootkitty.tech/img/favicon.ico" />
+<link rel="icon" type="image/png" sizes="16x16" href="https://rootkitty.tech/img/favicon-16x16.png" />
+<link rel="icon" type="image/png" sizes="32x32" href="https://rootkitty.tech/img/favicon-32x32.png" />
+<link rel="icon" sizes="192x192" href="https://rootkitty.tech/img/touch-icon-android.png" />
+<link rel="apple-touch-icon" href="https://rootkitty.tech/img/touch-icon-apple.png" />
+<link rel="mask-icon" href="https://rootkitty.tech/img/safari-pinned-tab.svg" color="#5fbf5e" />
+
+
+
+<link rel="stylesheet" href="https://rootkitty.tech/css/video-js-cdn.min.css" />
+
+<link rel="stylesheet" href="https://rootkitty.tech/css/bundle.css" />
+
+
+  
+  <!--[if lt IE 9]>
+    <script src="https://rootkitty.tech/js/html5shiv.min.js"></script>
+    <script src="https://rootkitty.tech/js/respond.min.js"></script>
+    <script src="https://rootkitty.tech/js/videojs-ie8.min.js"></script>
+  <![endif]-->
+
+<!--[if lte IE 11]>
+    <script src="https://rootkitty.tech/js/classList.min.js"></script>
+  <![endif]-->
+
+
+<script async src="https://rootkitty.tech/js/ofi.min.js"></script>
+
+
+<script async src="https://rootkitty.tech/js/smooth-scroll.polyfills.min.js"></script>
+
+
+</head>
+  <body>
+    
+    <div class="suspension">
+      <a title="Go to top" class="to-top is-hide"><span class="icon icon-up"></span></a>
+      
+        
+      
+    </div>
+    
+    
+  <header class="site-header">
+  <img class="avatar" src="https://rootkitty.tech/img/avatar.png" alt="Avatar">
+  
+  <h2 class="title">Rootkitty&#39;s Blog</h2>
+  
+  <p class="subtitle">I break more things then I fix</p>
+  <button class="menu-toggle" type="button">
+    <span class="icon icon-menu"></span>
+  </button>
+  <nav class="site-menu collapsed">
+    <h2 class="offscreen">Main Menu</h2>
+    <ul class="menu-list">
+      
+      
+      
+      
+        <li class="menu-item  is-active"><a href="https://rootkitty.tech/">Home</a></li>
+      
+        <li class="menu-item "><a href="https://gitgud.io/rootkit.ty/">Git Repository</a></li>
+      
+    </ul>
+  </nav>
+  <nav class="social-menu collapsed">
+    <h2 class="offscreen">Social Networks</h2>
+    <ul class="social-list">
+
+      
+      <li class="social-item">
+        <a href="mailto:contact@rootkitty.tech" title="Email"><span class="icon icon-email"></span></a>
+      </li>
+
+      
+      <li class="social-item">
+        <a href="//github.com/rootkitty" title="GitHub"><span class="icon icon-github"></span></a>
+      </li>
+
+      <li class="social-item">
+        <a href="//twitter.com/rootkit_ty" title="Twitter"><span class="icon icon-twitter"></span></a>
+      </li>
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <li class="social-item">
+        <a href="https://rootkitty.tech/index.xml"><span class="icon icon-rss" title="RSS"></span></a>
+      </li>
+
+    </ul>
+  </nav>
+</header>
+
+  <section class="main post-detail">
+    <header class="post-header">
+      <h1 class="post-title">Go Hugo</h1>
+      <p class="post-meta">@Ring &lt;3 RootKitty · Sep 26, 2017 · 2 min read</p>
+    </header>
+    <article class="post-content"><h2 id="what-is-hugo">What is hugo?</h2>
+
+<p><a href="https://gohugo.io">Hugo</a> is a wonderful program written in <a href="https://golang.org/">Golang</a> to create static HTML from templates and markdown files. It&rsquo;s fast, natively compiled, and does the job well.
+
+It&rsquo;s filled to the brim with features that I&rsquo;m sure I won&rsquo;t find any use for. It also has a plethora of themes that you can easily switch between.</p>
+
+<h2 id="how-does-it-work">How does it work?</h2>
+
+<p>Hugo works by simply rendering static MarkDown files (.md) with themes and templates, thus creating static HTML files.</p>
+
+<p>What you do with these files is up to you. You can have them hosted using Hugo&rsquo;s built in server, or you can serve them up with Apache, NGINX, or anything else.</p>
+
+<h2 id="my-solution">My solution</h2>
+
+<p>To get all this working required a some-what convoluted, yet effective solution that botches together a few technologies.</p>
+
+<p>The basic idea is that, a service account pulls changes in a <a href="https://gitgud.io/rootkit.ty/rootkitty.tech/">git repository</a>, runs the hugo command, and apache will serve te updated static HTML.</p>
+
+<p>While it&rsquo;s not pretty, it does the job while remaning secure.</p>
+
+<h2 id="benifits">Benifits</h2>
+
+<p>It provides a few benifits as well. Git provides a redundant backup for my blog content, and version control. I can make the creative process public, and even have a draft branch. Users can even mirror it if they feel the need.</p>
+
+<p>All of these benifits while making it fairly secure. As there&rsquo;s no service listening to be exploited, no credentials to be brute forced, and NO dynamic content.</p>
+
+<h2 id="caveat">Caveat</h2>
+
+<p>Sadly this does require some fiddling with Default ACL settings, and the creation of a service account. It&rsquo;s not too hard, but can be a of a hastle getting it seutp correctly.</p></article>
+    <footer class="post-footer">
+      
+      <ul class="post-tags">
+        
+          <li><a href="https://rootkitty.tech/tags/meta"><span class="tag">Meta</span></a></li>
+        
+          <li><a href="https://rootkitty.tech/tags/software"><span class="tag">Software</span></a></li>
+        
+          <li><a href="https://rootkitty.tech/tags/setup"><span class="tag">Setup</span></a></li>
+        
+          <li><a href="https://rootkitty.tech/tags/server"><span class="tag">Server</span></a></li>
+        
+      </ul>
+      
+      <p class="post-copyright">
+        © This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you likes to quote or reproduce.
+      </p>
+    </footer>
+    
+      
+    
+  </section>
+  <footer class="site-footer">
+  <p>© 2017 Rootkitty&#39;s Blog</p>
+  <p>Powered by <a href="https://gohugo.io/" target="_blank">Hugo</a> with theme <a href="https://gitgud.io/rootkit.ty/hugo-nuo-cdnless">Nuo CDNLess</a> Which is a fork of <a href="https://github.com/laozhu/hugo-nuo" target="_blank">Nuo</a>.</p>
+  
+</footer>
+
+
+
+<script async src="https://rootkitty.tech/js/video.novtt.min.js"></script>
+<script async src="https://rootkitty.tech/js/MathJax.js"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {inlineMath: [['$','$'], ['\(','\)']]}
+});
+</script>
+
+<script src="https://rootkitty.tech/js/bundle.js"></script>
+
+
+
+  </body>
+</html>
