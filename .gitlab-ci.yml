@@ -1,0 +1,15 @@
+image: karelbemelmans/pipelines-hugo
+
+stages:
+  - build
+  - deploy
+
+job1:
+ stage: build
+ script:
+   - hugo
+job2:
+  stage: deploy
+  script:
+    - aws s3 sync --delete public s3://aws-website-rootkittytech-w4w8y
+ 
