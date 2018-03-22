@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Privacy on Rootkitty&#39;s Blog</title>
+    <link>https://rootkitty.tech/tags/privacy/</link>
+    <description>Recent content in Privacy on Rootkitty&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you likes to quote or reproduce.</copyright>
+    <lastBuildDate>Thu, 28 Sep 2017 09:28:27 +1000</lastBuildDate>
+    
+	<atom:link href="https://rootkitty.tech/tags/privacy/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Snipping Leak</title>
+      <link>https://rootkitty.tech/post/snipping-leak/</link>
+      <pubDate>Thu, 28 Sep 2017 09:28:27 +1000</pubDate>
+      
+      <guid>https://rootkitty.tech/post/snipping-leak/</guid>
+      <description>Did you know that Windows inbuilt Snipping Tool leaks your user data? I didn&amp;rsquo;t but it came as quite a shock to discover.
+JPEG Metadata So the JPEG file format provides methods of storing metadata about various things. Everything from GeoLocation to the Serial number of the Camera. All This data is stored as EXIF, and it can be quite verbose.
+Those not paying attention to their metadata may soon find themselves leaking quite a lot of personal and identifiable data.</description>
+    </item>
+    
+  </channel>
+</rss>
