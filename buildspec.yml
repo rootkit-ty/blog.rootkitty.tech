@@ -1,0 +1,6 @@
+phases:
+    build:
+        - hugo
+artifacts:
+    files:
+        - 'public/**/*'
