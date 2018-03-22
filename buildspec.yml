@@ -1,6 +1,7 @@
 phases:
     build:
-        - hugo
+        commands:
+            - hugo
 artifacts:
     files:
         - 'public/**/*'
