@@ -1,7 +1,16 @@
+env:
+    parameter-store:
+        deploy_key: "github_hugo_deploy_key"
 phases:
     build:
         commands:
+            - echo $deploy_key > ~/.ssh/id_rsa
+            - git clone -b gh-pages git@github.com:rootkit-ty/rootkitty.tech public
             - hugo
+            - cd public
+            - git add .
+            - git commit -m "Automatic CI/CD change, please check https://github.com/rootkit-ty/rootkity.tech for more details"
+            - git push
 artifacts:
     files:
         - 'public/**/*'
