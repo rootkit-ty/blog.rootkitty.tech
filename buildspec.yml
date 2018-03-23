@@ -1,3 +1,4 @@
+version: 0.2
 env:
     parameter-store:
         deploy_key: "github_hugo_deploy_key"
