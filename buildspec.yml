@@ -11,6 +11,7 @@ phases:
             - wget https://github.com/spf13/hugo/releases/download/v0.14/hugo_0.14_amd64.deb -O /tmp/hugo.deb
             - sudo dpkg -i /tmp/hugo.deb
     pre_build:
+        commands:
             - mkdir -p ~/.ssh/
             - echo $deploy_key > ~/.ssh/id_rsa
             - rm -rf public
@@ -19,6 +20,7 @@ phases:
         commands:
             - hugo
     post_build:
+        commands:
             - cd public
             - git add .
             - git commit -m "Automatic CI/CD change, please check https://github.com/rootkit-ty/rootkity.tech for more details"
