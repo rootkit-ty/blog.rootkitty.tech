@@ -3,17 +3,22 @@ env:
     parameter-store:
         deploy_key: "github_hugo_deploy_key"
 phases:
-    build:
+    install:
         commands:
-            - curl google.com
             - apt-get update
             - apt-get upgrade -y
             - apt-get install openssh-client git -y
+            - wget https://github.com/spf13/hugo/releases/download/v0.14/hugo_0.14_amd64.deb -O /tmp/hugo.deb
+            - sudo dpkg -i /tmp/hugo.deb
+    pre_build:
             - mkdir -p ~/.ssh/
             - echo $deploy_key > ~/.ssh/id_rsa
             - rm -rf public
             - git clone -b gh-pages git@github.com:rootkit-ty/rootkitty.tech.git public
+    build:
+        commands:
             - hugo
+    post_build:
             - cd public
             - git add .
             - git commit -m "Automatic CI/CD change, please check https://github.com/rootkit-ty/rootkity.tech for more details"
