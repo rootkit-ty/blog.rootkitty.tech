@@ -5,8 +5,10 @@ env:
 phases:
     build:
         commands:
-            - yum upgrade -y
-            - yum install openssh-client git -y
+            - curl google.com
+            - apt-get update
+            - apt-get upgrade -y
+            - apt-get install openssh-client git -y
             - mkdir -p ~/.ssh/
             - echo $deploy_key > ~/.ssh/id_rsa
             - rm -rf public
