@@ -5,6 +5,9 @@ env:
 phases:
     build:
         commands:
+            - apt-get update
+            - apt-get upgrade -y
+            - apt-get install openssh-client git -y
             - mkdir -p ~/.ssh/
             - echo $deploy_key > ~/.ssh/id_rsa
             - rm -rf public
