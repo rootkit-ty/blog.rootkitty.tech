@@ -5,7 +5,9 @@ env:
 phases:
     build:
         commands:
+            - mkdir -p ~/.ssh/
             - echo $deploy_key > ~/.ssh/id_rsa
+            - rm -rf public
             - git clone -b gh-pages git@github.com:rootkit-ty/rootkitty.tech public
             - hugo
             - cd public
