@@ -19,7 +19,8 @@ phases:
               #- cat ~/.ssh/config
               #- ssh github.com
             - rm -rf public
-            - git clone -b gh-pages git@github.com:rootkit-ty/rootkitty.tech.git public
+              #- git clone -b gh-pages git@github.com:rootkit-ty/rootkitty.tech.git public
+            - git clone -b gh-pages https://github.com/rootkit-ty/rootkitty.tech.git public
     build:
         commands:
             - hugo
