@@ -5,18 +5,15 @@ env:
 phases:
     install:
         commands:
-            - apt-get update
-            - apt-get upgrade -y
-            - apt-get install openssh-client git -y
+            #- apt-get update
+            #- apt-get install openssh-client git -y
             - wget https://github.com/spf13/hugo/releases/download/v0.14/hugo_0.14_amd64.deb -O /tmp/hugo.deb
             - sudo dpkg -i /tmp/hugo.deb
     pre_build:
         commands:
-            - mkdir -p ~/.ssh/
-            - echo $DEPLOY_KEY > ~/.ssh/id_rsa
-            - wc -m ~/.ssh/id_rsa
-            - echo $DEPLOY_KEY | wc -m
-            - chmod 0600 ~/.ssh/id_rsa
+            - mkdir -p ~/.ssh/github
+            - echo $DEPLOY_KEY > ~/.ssh/github/aws_hugo
+            - chmod 0600 ~/.ssh/github/aws_hugo
             - ssh-keyscan -t rsa github.com >> ~/.ssh/known_hosts
               #- echo "Host github.com\n    Hostname github.com\n    User git\n    IdentityFile ~/.ssh/id_rsa" > ~/.ssh/config
               #- cat ~/.ssh/config
