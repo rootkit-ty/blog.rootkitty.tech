@@ -13,11 +13,10 @@ phases:
     pre_build:
         commands:
             - mkdir -p ~/.ssh/
-            - echo $deploy_key > ~/.ssh/id_rsa
+            - echo $DEPLOY_KEY > ~/.ssh/id_rsa
             - chmod 0600 ~/.ssh/id_rsa
             - ssh-keyscan -t rsa github.com >> ~/.ssh/known_hosts
             - echo "Host github.com\n\tHostname github.com\n\tUser git\n\tIdentityFile ~/.ssh/id_rsa" > ~/.ssh/config
-            - ssh github.com
             - rm -rf public
             - git clone -b gh-pages git@github.com:rootkit-ty/rootkitty.tech.git public
     build:
