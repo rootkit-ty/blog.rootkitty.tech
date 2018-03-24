@@ -17,6 +17,7 @@ phases:
             - chmod 0600 ~/.ssh/id_rsa
             - ssh-keyscan -t rsa github.com >> ~/.ssh/known_hosts
             - echo "Host github.com\n\tHostname github.com\n\tUser git\n\tIdentityFile ~/.ssh/id_rsa" > ~/.ssh/config
+            - ssh github.com
             - rm -rf public
             - git clone -b gh-pages git@github.com:rootkit-ty/rootkitty.tech.git public
     build:
