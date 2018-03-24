@@ -14,10 +14,10 @@ phases:
             - mkdir -p ~/.ssh/github
             - echo $DEPLOY_KEY > ~/.ssh/github/aws_hugo
             - chmod 0600 ~/.ssh/github/aws_hugo
-            - ssh-keyscan -t rsa github.com >> ~/.ssh/known_hosts
+              #- ssh-keyscan -t rsa github.com >> ~/.ssh/known_hosts
               #- echo "Host github.com\n    Hostname github.com\n    User git\n    IdentityFile ~/.ssh/id_rsa" > ~/.ssh/config
               #- cat ~/.ssh/config
-            - ssh github.com
+              #- ssh github.com
             - rm -rf public
             - git clone -b gh-pages git@github.com:rootkit-ty/rootkitty.tech.git public
     build:
