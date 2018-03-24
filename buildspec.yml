@@ -15,7 +15,7 @@ phases:
             - echo $DEPLOY_KEY > ~/.ssh/github/aws_hugo
             - chmod 0600 ~/.ssh/github/aws_hugo
               #- ssh-keyscan -t rsa github.com >> ~/.ssh/known_hosts
-              #- echo "Host github.com\n    Hostname github.com\n    User git\n    IdentityFile ~/.ssh/id_rsa" > ~/.ssh/config
+            - echo "Host github.com\n    Hostname github.com\n    User git\n    IdentityFile ~/.ssh/aws_hugo" > ~/.ssh/config
               #- cat ~/.ssh/config
               #- ssh github.com
             - rm -rf public
