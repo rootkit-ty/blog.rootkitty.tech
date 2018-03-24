@@ -1,7 +1,7 @@
 version: 0.2
 env:
     parameter-store:
-        deploy_key: "github_hugo_deploy_key"
+        DEPLOY_KEY: "github_hugo_deploy_key"
 phases:
     install:
         commands:
