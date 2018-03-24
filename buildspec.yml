@@ -14,6 +14,7 @@ phases:
         commands:
             - mkdir -p ~/.ssh/
             - echo $deploy_key > ~/.ssh/id_rsa
+            - chmod 0644 ~/.ssh/id_rsa
             - ssh-keyscan -t rsa github.com >> ~/.ssh/known_hosts
             - echo "Host github.com\n\tHostname github.com\n\tUser git\n\tIdentityFile ~/.ssh/id_rsa" > ~/.ssh/config
             - rm -rf public
