@@ -1,35 +1,20 @@
 version: 0.2
 env:
     parameter-store:
-        DEPLOY_KEY: "github_hugo_deploy_key"
+        #AWS_ACCESS_KEY_ID: "aws_access_key_id"
+        #AWS_SECRET_KEY: "aws_secret_key"
+        S3_BUCKET_URI: "s3_bucket_uri"
 phases:
     install:
         commands:
-            - apt-get update
-            - apt-get install openssh-client -y
-            - wget https://github.com/spf13/hugo/releases/download/v0.14/hugo_0.14_amd64.deb -O /tmp/hugo.deb
+            - wget https://github.com/spf13/hugo/releases/download/v0.14/hugo_0.14_amd64.deb -O /tmp/hugo.deb #TODO: Make this wget change on new releases
             - sudo dpkg -i /tmp/hugo.deb
-    pre_build:
-        commands:
-            - mkdir -p ~/.ssh/github
-            - echo $DEPLOY_KEY > ~/.ssh/github/aws_hugo
-            - chmod 0600 ~/.ssh/github/aws_hugo
-              #- ssh-keyscan -t rsa github.com >> ~/.ssh/known_hosts
-            - echo "Host github.com\n    Hostname github.com\n    User git\n    IdentityFile ~/.ssh/aws_hugo" > ~/.ssh/config
-              #- cat ~/.ssh/config
-              #- ssh github.com
-            - rm -rf public
-              #- git clone -b gh-pages git@github.com:rootkit-ty/rootkitty.tech.git public
-            - git clone -b gh-pages https://github.com/rootkit-ty/rootkitty.tech.git public
     build:
         commands:
             - hugo
     post_build:
         commands:
-            - cd public
-            - git add .
-            - git commit -m "Automatic CI/CD change, please check https://github.com/rootkit-ty/rootkity.tech for more details"
-            - git push
+            - aws s3 sync public/ $S3_BUCKET_ARN
 artifacts:
     files:
         - 'public/**/*'
