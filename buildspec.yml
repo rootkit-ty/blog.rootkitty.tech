@@ -9,6 +9,8 @@ phases:
         commands:
             - wget https://github.com/spf13/hugo/releases/download/v0.14/hugo_0.14_amd64.deb -O /tmp/hugo.deb #TODO: Make this wget change on new releases
             - sudo dpkg -i /tmp/hugo.deb
+            - aws --version
+            - pip install awscli --upgrade --user
     build:
         commands:
             - hugo
