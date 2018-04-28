@@ -14,7 +14,7 @@ phases:
             - hugo
     post_build:
         commands:
-            - aws s3 sync public/ $S3_BUCKET_ARN
+            - aws s3 sync public/ $S3_BUCKET_URI
 artifacts:
     files:
         - 'public/**/*'
