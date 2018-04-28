@@ -16,8 +16,8 @@ phases:
             - hugo
     post_build:
         commands:
-            - aws s3 cp public/ $S3_BUCKET_URI
+            - aws s3 cp public/ $S3_BUCKET_URI --recursive
             - echo "Done"
 artifacts:
     files:
-        - 'public/**/*'
+        #- 'public/**/*'
