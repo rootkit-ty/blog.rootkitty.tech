@@ -16,7 +16,7 @@ phases:
             - hugo
     post_build:
         commands:
-            - aws s3 sync public/ $S3_BUCKET_URI
+            - aws s3 cp public/ $S3_BUCKET_URI
             - echo "Done"
 artifacts:
     files:
