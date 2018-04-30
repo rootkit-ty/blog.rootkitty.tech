@@ -5,14 +5,13 @@ env:
 phases:
     install:
         commands:
-            - wget https://github.com/spf13/hugo/releases/download/v0.14/hugo_0.14_amd64.deb -O /tmp/hugo.deb #TODO: Make this wget change on new releases
-            - sudo dpkg -i /tmp/hugo.deb
+            #- wget https://github.com/spf13/hugo/releases/download/v0.14/hugo_0.14_amd64.deb -O /tmp/hugo.deb #TODO: Make this wget change on new releases
+            # - sudo dpkg -i /tmp/hugo.deb
             - git clone --recurse-submodules https://github.com/rootkit-ty/rootkitty.tech
             - cd rootkitty.tech
     build:
         commands:
-            - pwd
-            - hugo
+            - ./hugo
     post_build:
         commands:
             - aws s3 rm $S3_BUCKET_URI --recursive
