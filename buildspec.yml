@@ -7,10 +7,8 @@ phases:
         commands:
             - wget https://github.com/spf13/hugo/releases/download/v0.14/hugo_0.14_amd64.deb -O /tmp/hugo.deb #TODO: Make this wget change on new releases
             - sudo dpkg -i /tmp/hugo.deb
-            - pwd
-            - mkdir -p static
-            - git submodule update --init --recursive
-            - git pull --recurse-submodules
+            - git clone --recurse-submodules https://github.com/rootkit-ty/rootkitty.tech
+            - cd rootkitty.tech
     build:
         commands:
             - hugo
