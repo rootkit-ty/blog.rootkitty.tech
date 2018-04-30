@@ -1,16 +1,13 @@
 version: 0.2
 env:
     parameter-store:
-        #AWS_ACCESS_KEY_ID: "aws_access_key_id"
-        #AWS_SECRET_KEY: "aws_secret_key"
         S3_BUCKET_URI: "s3_bucket_uri"
 phases:
     install:
         commands:
             - wget https://github.com/spf13/hugo/releases/download/v0.14/hugo_0.14_amd64.deb -O /tmp/hugo.deb #TODO: Make this wget change on new releases
             - sudo dpkg -i /tmp/hugo.deb
-            - aws --version
-            - pip install awscli --upgrade --user
+            - ls -al
     build:
         commands:
             - hugo
@@ -18,6 +15,3 @@ phases:
         commands:
             - aws s3 rm $S3_BUCKET_URI --recursive
             - aws s3 cp public/ $S3_BUCKET_URI --recursive
-#artifacts:
-    #files:
-        #- 'public/**/*'
