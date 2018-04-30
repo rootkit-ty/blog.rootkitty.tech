@@ -15,7 +15,7 @@
 	"draft": false
 }
 
-Hello and welcome to my blog. This domain has beeen parked for some time while I attempted to find a nice blogging software, but I think found it.
+Hello and welcome to my blog. This domain has been parked for some time while I attempted to find a nice blogging software, but I think found it.
 
 ## Content
 

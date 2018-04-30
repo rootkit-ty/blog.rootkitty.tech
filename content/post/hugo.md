@@ -30,14 +30,14 @@ What you do with these files is up to you. You can have them hosted using Hugo's
 ## My solution
 To get all this working required a some-what convoluted, yet effective solution that botches together a few technologies.
 
-The basic idea is that, a service account pulls changes in a [git repository](https://gitgud.io/rootkit.ty/rootkitty.tech/), runs the hugo command, and apache will serve te updated static HTML.
+The basic idea is that, a service account pulls changes in a [git repository](https://gitgud.io/rootkit.ty/rootkitty.tech/), runs the hugo command, and apache will serve the updated static HTML.
 
-While it's not pretty, it does the job while remaning secure.
+While it's not pretty, it does the job while remaining secure.
 
-## Benifits
-It provides a few benifits as well. Git provides a redundant backup for my blog content, and version control. I can make the creative process public, and even have a draft branch. Users can even mirror it if they feel the need.
+## Benefits
+It provides a few benefits as well. Git provides a redundant backup for my blog content, and version control. I can make the creative process public, and even have a draft branch. Users can even mirror it if they feel the need.
 
-All of these benifits while making it fairly secure. As there's no service listening to be exploited, no credentials to be brute forced, and NO dynamic content.
+All of these benefits while making it fairly secure. As there's no service listening to be exploited, no credentials to be brute forced, and NO dynamic content.
 
 ## Caveat
-Sadly this does require some fiddling with Default ACL settings, and the creation of a service account. It's not too hard, but can be a of a hastle getting it seutp correctly.
+Sadly this does require some fiddling with Default ACL settings, and the creation of a service account. It's not too hard, but can be a of a hassle getting it setup correctly.
