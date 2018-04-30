@@ -11,6 +11,7 @@ phases:
             - cd rootkitty.tech
     build:
         commands:
+            - pwd
             - hugo
     post_build:
         commands:
