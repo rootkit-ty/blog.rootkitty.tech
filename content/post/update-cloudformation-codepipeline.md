@@ -5,7 +5,7 @@ description: "An update regarding the future of my blog, and it's hosting"
 keywords: ["s3", "cd", "continuous deployment", "update"]
 categories: "meta"
 tags: ["meta", "update"]
-draft: true
+draft: false
 ---
 
 # An update and Github pages

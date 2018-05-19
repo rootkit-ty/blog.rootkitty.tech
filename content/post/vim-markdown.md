@@ -4,6 +4,8 @@ date: 2017-10-01T16:00:58+11:00
 draft: true
 ---
 
+<!-- TODO: Rework this post to be more generally about the vim workflow -->
+
 Writing plaintext documents in vim is a breeze, especially if you start writing a workflow designed to specifically work with the type of file you're working with.
 
 Thanks to a few improvements we can make writing Hugo posts a breeze, even when using some of the more complex markdown features provided by themes, such as [Nuo](https://github.com/laozhu/hugo-nuo).
