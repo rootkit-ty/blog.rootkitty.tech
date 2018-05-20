@@ -16,6 +16,8 @@ Well it's been a while since I've posted anything, and that's because life has g
 
 I have a few draft posts that I'll continue to work on until they get published and I have a few more planned. Hopefully they'll be interesting and provide an insight.
 
+<!--more-->
+
 ## Code pipeline and Cloudformation
 
 Currently my website is being automatically deploy from git to an AWS S3 bucket through AWS codepipeline.

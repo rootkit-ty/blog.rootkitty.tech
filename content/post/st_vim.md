@@ -23,6 +23,8 @@ Here's a quick post for people struggling to get the Simple Terminal (ST) from h
 
 This issue may manifest as a problem with the `:set termguicolors` option in vim with the ST terminal.
 
+<!--more-->
+
 ## So what's the solution?
 
 I'm guessing your eager to find the solution to this issue if you've encountered it so I won't get in the way. All you need to do is add the following lines to your `vimrc` file.
