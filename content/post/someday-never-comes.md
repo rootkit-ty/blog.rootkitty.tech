@@ -1,6 +1,7 @@
 +++
 title = "Someday never comes"
-author = ["Ring <3 Rootkit.ty"]
+author = ["Ring <3 rootkitty"]
+date = 2018-09-29T00:00:00+10:00
 tags = ["procrastination"]
 categories = ["gtd"]
 draft = false
