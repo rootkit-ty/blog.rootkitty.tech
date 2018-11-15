@@ -60,7 +60,9 @@ breaks pretty much everything. So here's it in plaintext
 > emacsclient "org-protocol:/capture:/google.com/]
 >
 > #+BEGIN_SRC bash :tangle test.sh
+>
 > echo 'test'
+>
 > #+END_SRC
 >
 > /test"
