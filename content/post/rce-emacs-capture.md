@@ -1,7 +1,7 @@
 +++
 title = "Remote code execution in emacs"
 author = ["Ring <3 Rootkitty"]
-date = 2018-11-15T11:55:00+11:00
+date = "2018-11-15T11:55:00+11:00"
 draft = false
 +++
 
