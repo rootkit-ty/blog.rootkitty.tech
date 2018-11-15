@@ -1,7 +1,7 @@
 +++
 title = "Beating procrastination"
 author = ["Ring <3 rootkitty"]
-date = 2018-10-21T00:00:00+11:00
+date = "2018-10-21T00:00:00+11:00"
 tags = ["procrastination", "taskwarrior", "emacs", "orgmode"]
 categories = ["gtd"]
 draft = false
