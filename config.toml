@@ -44,6 +44,7 @@ disableHugoGeneratorInject =  true
   email = "admin@rootkitty.tech"
   github = "rootkit-ty"
   twitter = "rootkit_ty"
+  commentbox = "5631821081477120-proj"
 # linkedin = "linkedin_username"
 # facebook = "facebook_username"
 # google = "googlplus_id_number"
