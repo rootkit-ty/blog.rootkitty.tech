@@ -1,7 +1,7 @@
 +++
 title = "Comments"
 author = ["Ring <3 Rootkitty"]
-date = "2018-11-18T16:59:00+1100"
+date = "2018-11-18T16:59:00+11:00"
 tags = ["BLOG", "meta"]
 draft = false
 +++
